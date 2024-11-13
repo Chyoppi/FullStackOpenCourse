@@ -2,8 +2,8 @@ Kaavio mitä tapahtuu, kun käyttäjä luo uuden muistiinpanon:
 
 ```mermaid
 graph TD;
-    Browser-->new_note POST-->Server HTML -->Browser;
-    Browser-->notes GET-->Server HTML-->Browser;
-    Browser-->main.css GET-->Server CSS -->Browser;
-    Browser-->data.json GET -->Server JSON -->Browser;
+    Browser-->new_note-->POST-->ServerHTML -->Browser;
+    Browser-->notes-->GET-->ServerHTML-->Browser;
+    Browser-->main.css-->GET-->ServerCSS-->Browser;
+    Browser-->data.json-->GET-->ServerJSON-->Browser;
 ```
