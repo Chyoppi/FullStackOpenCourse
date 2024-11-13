@@ -1,9 +1,9 @@
-Kaavio mitä tapahtuu, kun käyttäjä luo uuden muistiinpanon:
+Kaavio mitä tapahtuu, kun käyttäjä luo uuden muistiinpanon (Vasemmalta oikealle päin):
 
 ```mermaid
 graph TD;
-    Browser-->new_note.html-->POST-->Server -->Browser;
-    Browser-->notes.html-->GET-->Server-->Browser;
-    Browser-->main.css-->GET-->Server-->Browser;
-    Browser-->data.json-->GET-->Server-->Browser;
+    Browser-->new_note.html_POST-->Server -->Browser;
+    Browser-->notes.html_GET-->Server-->Browser;
+    Browser-->main.css_GET-->Server-->Browser;
+    Browser-->data.json_GET-->Server-->Browser;
 ```
